@@ -33,4 +33,13 @@ public class Word {
 
     public int getSound(){return mSound;}
 
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mEnglish='" + mEnglish + '\'' +
+                ", mMiwok='" + mMiwok + '\'' +
+                ", mImage=" + mImage +
+                ", mSound=" + mSound +
+                '}';
+    }
 }
